@@ -1,7 +1,11 @@
 # QA (Question-Answering)
+<img src="https://github.com/dev-hjJoo/NLP/assets/33647482/ef56e9ed-48d4-4456-8ec9-5fa755a5a532" width=60%>
+
+*이미지는 Slideshare에 게시된 LG CNS AI 연구팀(SeungyoungLim님)의 슬라이드를 차용하였으며, 해당 링크는 본 페이지 최하단 6번에 기재되어 있습니다*
+
 * 질의 응답(Question-Answering)이란, 사용자로부터 받은 질문에 대하여 답을 구하는 기술이다.
 * 자연어(Natural language)로 질문을 받고 자연어로 답변을 한다.
-* 기계 독해 기반의 Question Answering이란, 기계의 독해 능력(MRC, Machine Reading Comprehension)을 기반으로 질문에 대한 답을 구한다.
+* 기계 독해 기반의 Question Answering이란, <u>기계의 독해 능력(MRC, Machine Reading Comprehension)</u>을 기반으로 질문에 대한 답을 구하는 것(Question-Answering)을 의미한다.
 ---
 # Tasks
 ## 🔵 1. MRC (Machine Reading Comprehension)
@@ -43,4 +47,4 @@
 
 5. LG AI연구원의 MRC 프로젝트, 어디까지 왔나(LG AI연구원): https://www.lgresearch.ai/blog/view/?seq=140
 
-6. KorQuAD introduction(LG CNS/ Slideshare):  https://www.slideshare.net/SeungyoungLim/korquad-introduction
+6. KorQuAD introduction (LG CNS/ Slideshare):  https://www.slideshare.net/SeungyoungLim/korquad-introduction
