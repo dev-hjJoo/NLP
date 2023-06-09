@@ -7,13 +7,11 @@
     * Python (ver. 3.8.16)
 * 개발 도구 (코드 편집기, IDE, ...)
 * 실행 환경 (가상환경, ...)
----
 ## Contents
 ### 1. QA (Question-Answering)
 1. MRC (Machine Reading Comprehension)
 
 
-### 0. Appendix
+### 99. Appendix
 1. Dictionary
     * 학습하면서 몰랐던 용어들을 정리
----
