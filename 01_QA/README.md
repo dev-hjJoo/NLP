@@ -11,21 +11,12 @@
 ## 🔵 1. MRC (Machine Reading Comprehension)
 * 기계가 사람처럼 문서를 읽고 이해할 수 있는 기술이다.
 * 기존의 질의응답 시스템과 달리 FAQ 리스트 없이 새로운 질문에도 자유롭게 대답할 수 있다는 장점이 있다.
-### Dataset
-1. KorQuAD (Korean Question Answering Dataset)
-2. **KLUE-MRC**
-    * Summary
-        * Context와 Context에 대한 질문, 답변, Context 안에서 답변의 위치 등이 포함된 데이터셋이다.
-    * Type
-        1. Paraphrase
-        2. Multi-Sentence
-        3. Unanswerable
-    * Evaluation metrics
-        1. EM (Exact Match)
-        2. ROUGE (Character-level ROUGE-W)
+
 ### Code
 1. KoBERT 기반의 MRC
+    * Dataset: 
 2. BERT 기반의 MRC
+    * Dataset: KLUE-MRC
 
 
 
