@@ -17,3 +17,31 @@
 1. [KLUE-MRC - 기계 독해](https://klue-benchmark.com/tasks/72/overview/evaluation)
 
 ---
+## Dataset
+### 1. KorQuAD (Korean Question Answering Dataset)
+### 2. KLUE (Korean Language Understanding Evaluation)
+* Summary
+    * 한국어를 위한 NLP 분야에서 8가지 task를 평가하기 위해 생성된 데이터셋
+* Tasks - dataset
+    1. TC (Topic Classification) - ynat
+    2. STS (Semantic Textual Similarity) - sts
+    3. NLI (Natural Language Inference) - nli
+    4. NER (Named Entity Recognition) - ner
+    5. RE (Relation Extraction) - re
+    6. DP (Dependency Parsing) - dp
+    7. MRC (Machine Reading Comprehension) - mrc
+    8. DST (Dialogue State Tracking) - wos
+* Reference Links
+    * [KLUE Website](https://klue-benchmark.com/)
+    * [Hugging Face - Datasets: klue](https://huggingface.co/datasets/klue)
+### 3. KLUE-MRC
+* Summary
+    * Context와 Context에 대한 질문, 답변, Context 안에서 답변의 위치 등이 포함된 데이터셋이다.
+* Question types
+    1. Paraphrase
+    2. Multi-Sentence
+    3. Unanswerable
+* Evaluation metrics
+    1. EM (Exact Match)
+    2. ROUGE (Character-level ROUGE-W)
+### 
