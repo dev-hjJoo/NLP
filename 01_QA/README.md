@@ -14,9 +14,13 @@
 
 ### Code
 1. KoBERT 기반의 MRC
-    * Dataset: 
+    * Model: 
+    * Dataset: `KorQuAD`
 2. BERT 기반의 MRC
-    * Dataset: KLUE-MRC
+    * Model, Tokenizer: `klue/bert-base`
+        * BERT(bert-base-uncased) 모델에 한국어 데이터셋(Modu corpus 등)을 학습시켜 한국어 task에 알맞게 fine-tuning한 모델
+    * Dataset: `KLUE-MRC`
+
 
 
 
@@ -28,8 +32,9 @@
 
 ---
 # Reference
-``` 내용을 공부하면서 참고한 문서를 모두 포함하고 있습니다. ```
+`내용을 공부하면서 참고한 문서를 모두 포함하고 있습니다.`
 1. 질의 응답 (위키백과): https://ko.wikipedia.org/wiki/질의_응답
+
 2. Question Answering (Hugging Face): https://huggingface.co/tasks/question-answering
 
 3. 6.질의 응답(위키독스, Transformers): https://wikidocs.net/166845
@@ -39,3 +44,4 @@
 5. LG AI연구원의 MRC 프로젝트, 어디까지 왔나(LG AI연구원): https://www.lgresearch.ai/blog/view/?seq=140
 
 6. KorQuAD introduction (LG CNS/ Slideshare):  https://www.slideshare.net/SeungyoungLim/korquad-introduction
+7. klue/bert-base (Hugging Face): https://huggingface.co/klue/bert-base#training

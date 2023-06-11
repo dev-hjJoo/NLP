@@ -18,7 +18,15 @@
 
 ---
 ## Dataset
-### 1. KorQuAD (Korean Question Answering Dataset)
+### 1. KorQuAD(Korean Question Answering Dataset) 2.0 
+* Summary
+    * SQuAD와 유사하며, 한글 Wikipedia 문서들을 크라우드소싱하여 만든 데이터 세트
+    * KorQuAD 2.0의 경우, 데이터셋이 KorQuAD 1.0과 달리 Table 구조로 구성되어 아래의 장점을 가지고 있다.
+        1. 여러 문장(혹은 문단)을 종합적으로 활용하여 에서 답을 도출할 수 있다.
+        2. 테이블 형태로 문서를 구조화하기 때문에, 행과 열간의 관계를 추가로 학습할 수 있어 답변을 추론하는 데에 효과적이다.
+* Reference Links
+    * [Slideshare/ KorQuAD v2.0 소개](https://www.slideshare.net/LGCNSairesearch/korquad-v20?ref=https://www.slideshare.net/LGCNSairesearch/slideshelf)
+    * [Slideshare/ KorQuAD introduction](https://www.slideshare.net/SeungyoungLim/korquad-introduction)
 ### 2. KLUE (Korean Language Understanding Evaluation)
 * Summary
     * 한국어를 위한 NLP 분야에서 8가지 task를 평가하기 위해 생성된 데이터셋
