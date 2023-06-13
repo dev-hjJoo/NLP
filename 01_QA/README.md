@@ -1,7 +1,7 @@
 # QA (Question-Answering)
 <img src="https://github.com/dev-hjJoo/NLP/assets/33647482/ef56e9ed-48d4-4456-8ec9-5fa755a5a532" width=60%>
 
-*이미지는 Slideshare에 게시된 LG CNS AI 연구팀(SeungyoungLim님)의 슬라이드를 차용하였으며, 해당 링크는 본 페이지 최하단 6번에 기재되어 있습니다*
+*이미지는 Slideshare에 게시된 LG CNS AI 연구팀(SeungyoungLim님)의 슬라이드를 차용하였으며, 해당 링크는 본 페이지 최하단에 있는 References 중 6번에 기재되어 있습니다*
 
 * 질의 응답(Question-Answering)이란, 사용자로부터 받은 질문에 대하여 답을 구하는 기술이다.
 * 자연어(Natural language)로 질문을 받고 자연어로 답변을 한다.
@@ -31,7 +31,7 @@
 
 
 ---
-# Reference
+# References
 `내용을 공부하면서 참고한 문서를 모두 포함하고 있습니다.`
 1. 질의 응답 (위키백과): https://ko.wikipedia.org/wiki/질의_응답
 

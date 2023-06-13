@@ -11,11 +11,15 @@
 * 실행 환경
     * Virtual Environment: Anaconda
     * GPU: RTX-4090
-    * 각 Task에 따른 딥러닝 라이브러리 및 패키지는 각 파트에서 별도 정리
+    * 각 Task에 따른 딥러닝 라이브러리 및 패키지는 필요시 각 파트에서 별도 정리
 ## Contents
 ### 1. QA (Question-Answering)
 * NLP 분야 중 QA(Question-Answering) 분야에 대한 코드와 내용을 정리합니다.
 1. MRC (Machine Reading Comprehension)
+### 2. Topic Modeling
+* NLP 분야 중 Topic Modeling 분야에 대한 코드와 내용을 정리합니다.
+1. LSA (Latent Semantic Analysis, 잠재 의미 분석)
+2. LDA (Latent Dirichlet Allocation, 잠재 디리클레 할당)
 
 
 ### 99. Appendix

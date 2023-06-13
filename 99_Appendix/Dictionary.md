@@ -1,6 +1,28 @@
 # Dictionary
 * 학습하면서 몰랐던 용어들을 정리해두자.
 ---
+## Terms
+### 1. DTM (Document-Term Matrix, 문서 단어 행렬)
+* 서로 다른 문서들에서 도출된 BoW(Bag of Words)
+
+### 2. BoW (Bag of Words)
+* 정의: 한국어로 하면 단어 집합으로, 단어 출현 빈도수(frequency) 기반의 단어 표현 방법이다. 
+* 특징: 집합의 순서를 고려하지 않는 성질 그대로 단어의 등장 순서를 고려하지 않는다. 
+
+### 3. Matrix
+* SVD 등 행렬 연산에서 사용되는 용어들이다.
+1. 직교 행렬(Orthogonal matrix): 자신과 전치 행렬의 곱(반대도 성립)의 결과가 단위 행렬이되는 행렬로, 직교 행렬의 역행렬은 전치행렬임.
+2. 전치 행렬(Transpose matrix): 원래의 행렬에서 행과 열을 변환한 행렬
+3. 단위 행렬(Identify matrix): 주대각선의 원소가 모두 1이며 원소는 모두 0인 **정사각** 행렬
+4. 대각 행렬(Diagonal matrix): 주대각선을 제외한 곳의 원소가 모두 0인 행렬 (정사각 행렬이 아닐 수도 있음)
+
+
+### References
+1. [딥 러닝을 이용한 자연어 처리 입문 / 04-03 문서 단어 행렬(Document-Term Matrix, DTM)](https://wikidocs.net/24559)
+2. [딥 러닝을 이용한 자연어 처리 입문 / 04-02 Bag of Words(BoW)](https://wikidocs.net/22650)
+
+
+---
 ## Evaluation Metrics
 ### 1. EM (Exact Match)
 * QA 분야에서 가장 일반적으로 사용하는 평가 척도이다.
@@ -31,14 +53,14 @@
 * Summary
     * 한국어를 위한 NLP 분야에서 8가지 task를 평가하기 위해 생성된 데이터셋
 * Tasks - dataset
-    1. TC (Topic Classification) - ynat
-    2. STS (Semantic Textual Similarity) - sts
-    3. NLI (Natural Language Inference) - nli
-    4. NER (Named Entity Recognition) - ner
-    5. RE (Relation Extraction) - re
-    6. DP (Dependency Parsing) - dp
-    7. MRC (Machine Reading Comprehension) - mrc
-    8. DST (Dialogue State Tracking) - wos
+    * TC (Topic Classification) - ynat
+    * STS (Semantic Textual Similarity) - sts
+    * NLI (Natural Language Inference) - nli
+    * NER (Named Entity Recognition) - ner
+    * RE (Relation Extraction) - re
+    * DP (Dependency Parsing) - dp
+    * MRC (Machine Reading Comprehension) - mrc
+    * DST (Dialogue State Tracking) - wos
 * Reference Links
     * [KLUE Website](https://klue-benchmark.com/)
     * [Hugging Face - Datasets: klue](https://huggingface.co/datasets/klue)
