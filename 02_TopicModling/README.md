@@ -37,3 +37,6 @@
 `내용을 공부하면서 참고한 문서를 모두 포함하고 있습니다.`
 1. [딥 러닝을 이용한 자연어 처리 입문 / 19-01 잠재 의미 분석 (Latent Semantic Analysis)](https://wikidocs.net/24949)
 2. [딥 러닝을 이용한 자연어 처리 입문 / 19-02 잠재 디리클레 할당 (Latent Dirichlet Allocation)](https://wikidocs.net/30708)
+3. [딥 러닝을 이용한 자연어 처리 입문 / 19-04 BERT를 이용한 키워드 추출 : 키버트(KeyBERT)](https://wikidocs.net/159467)
+4. [딥 러닝을 이용한 자연어 처리 입문 / 19-06 BERT 기반 복합 토픽 모델(Combined Topic Models, CTM)](https://wikidocs.net/161310)
+5. [딥 러닝을 이용한 자연어 처리 입문 / 19-08 버토픽(BERTopic)](https://wikidocs.net/162076)
